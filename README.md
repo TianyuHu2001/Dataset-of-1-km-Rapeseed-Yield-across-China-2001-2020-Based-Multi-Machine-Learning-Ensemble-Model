@@ -1,2 +1,6 @@
 # Dataset-of-1-km-Rapeseed-Yield-across-China-2001-2020-Based-Multi-Machine-Learning-Ensemble-Model
-The Extreme Gradient Boosting, Light Gradient Boosting Machine, and Random Forest model of stacking ensemble learning model for rapeseed yield prediction
+Welcome to the GitHub page for the Dataset of 1-km Rapeseed Yield across China from 2001 to 2020 Based on a Multi-Machine-Learning Ensemble Model, where we provide provide the gridded rapeseed yield distribution at a spatial resolution of 1km, spanning from 2001 to 2020.
+
+The scripts used in the paper are stored in the Rapeseed_yield_Stacking_EL, Rapeseed_yield_Bagging_EL, Rapeseed_yield_Boosting_EL, and Quantile_Mapping directory.
+
+The scripts in the Rapeseed_yield_Stacking_EL folder introduce how to predict the rapeseed yield by Stacking method of Ensemble Learning model, and including to predicte by extreme gradient boosting (XGB), light gradient boosting machine (LGBM), and random forest (RF) algorithms, while the scripts in the Rapeseed_yield_Bagging_EL folder detail how to predict predict the rapeseed yield by Bagging method of Ensemble Learning model. The same as the scripts in the Rapeseed_yield_Boosting_EL folder record how to predict the rapeseed yield by Boosting method of Ensemble Learning model. The scripts in the Quantile_Mapping folder is about how to use the quantile mapping to correcting the prediction and statistical yield. The code in this study is fully operational under Python 3.13.
